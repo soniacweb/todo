@@ -7,9 +7,11 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
 </style> */
 
-*:focus {outline:none}
+*:focus {
+  outline:none !important;
+}
 
-body{
+body {
   background: white;
   font-family: 'PT Mono';
   font-size: 20px;
@@ -30,16 +32,18 @@ body{
 }
 
 .add-btn{
-  /* background: lightblue; */
+  
   font-family: 'PT Mono';
-  width: 90px;
+  width: 100px;
+  background-color: white;
+  font-size: 20px;
   height: 40px;
-  margin: 0 30px;
+  margin: 20px 10px;
   color: lightblue;
-  font-weight: 10px;
-  font-size: 30px;
   border: none;
-  padding: 2px 5px;
+  outline:none !important;
+  padding: 2px 5px; 
+
 }
 .app-title{
   text-align: center;
@@ -73,7 +77,15 @@ ul {
   width: 300px;
   font-size: 20px;
   height: 40px;
-  margin: 20px auto;
+  margin: 20px 10px;
+  border: none;
+  padding: 2px 5px; 
+}
+
+main-feature {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
 }
 
 li {

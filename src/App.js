@@ -64,6 +64,7 @@ this.setState({
        <h1 className="app-subtitle">  Add An Item..
          </h1> 
        <br/>
+       <div className="main-feature">
        <input className="input"
        type="text"
        placeholder="Type your item in here.."
@@ -76,6 +77,7 @@ this.setState({
        >
          Add
          </button>
+         </div>
          <br/>
          <ul>
            {this.state.list.map(item => {
