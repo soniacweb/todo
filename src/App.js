@@ -11,7 +11,7 @@ class App extends Component {
     }
   }
 
-  //implementing localstorage
+  //if I plan to implement localstorage in my project
 updateInput(key, value) {
   //update react state 
   this.setState({ 
