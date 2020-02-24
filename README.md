@@ -24,9 +24,9 @@
 
 # JSX
 
-I started with the JSX first as it helped give me some structure and helps me tackle what functions I needed to think about creating.
+I started with the JSX first as it helped give me some structure and tackle which functions I needed to think about creating first.
 
-I included an input form lisrting the type, placeholder and value- which then takes the value of the the `newitem` being added by the user.
+I included an input form listing the type, placeholder and value- which then takes the value of the the `newitem` being added by the user.
 
 I then utilised an onChange function which passes an event through.
 I added an onClick method within the button element, for the text the user inputs. This calls a function each time the `add` button is clicked. 
