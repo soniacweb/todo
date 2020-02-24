@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css')
+
+
+/* <style>
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+</style> */
+
+*:focus {outline:none}
+
+body{
+  background: white;
+  font-family: 'PT Mono';
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn{
+  background: pink;
+  /* margin: 20px; */
+  font-family: 'PT Mono';
+  font-size: 20px;
+  margin: 0 30px;
+  color: white;
+  width: 86px;
+  height: 40px;
+  padding: 5px 5px;
+
+}
+
+.add-btn{
+  /* background: lightblue; */
+  font-family: 'PT Mono';
+  width: 90px;
+  height: 40px;
+  margin: 0 30px;
+  color: lightblue;
+  font-weight: 10px;
+  font-size: 30px;
+  border: none;
+  padding: 2px 5px;
+}
+.app-title{
+  text-align: center;
+  color: lightblue;
+  font-size: 70px;
+}
+
+.app-subtitle{
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  margin: 10px auto;
+}
+
+ul {
+  list-style-type: none;
+}
+.container{
+  background-color: lightblue;
+  /* border: 5px solid lightblue; */
+  /* border-radius: 25px; */
+  color: white;
+  font-family: 'PT Mono';
+  height: 500px;
+  overflow: hidden;
+  height: auto;
+}
+
+.input {
+  font-family: 'PT Mono';
+  width: 300px;
+  font-size: 20px;
+  height: 40px;
+  margin: 20px auto;
+}
+
+li {
+  font-size: 35px;
+}
+.floating {  
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+
+}
+
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  55%  { transform: translate(0,15px); }
+  to   { transform: translate(0, -0px); }    
+}
+
+.tossing {
+  animation-name: tossing;
+  -webkit-animation-name: tossing;
+
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction : alternate-reverse;
+  -webkit-animation-direction : alternate-reverse;
+
+
+}
+
+@keyframes tossing {
+0% {
+    transform: rotate(1.5deg);
+   
+}
+
+100% {
+  transform: rotate(-1.5deg);	
+}						
+    
+}
