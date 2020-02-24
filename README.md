@@ -2,6 +2,8 @@
 
 `todo` is a basic React app I created to familiarise myself with the fundamentals of React and utilising basic React components. It's a productivity app, designed to create your own `todo` list. The user can create, add and delete items on and off the list.
 
+Version 1 deployment can be found <a href="https://sctodo.netlify.com/">here</a>
+
 # Duration
 
 1 day 
