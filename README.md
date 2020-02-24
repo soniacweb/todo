@@ -1,4 +1,4 @@
-# todo
+<img src="https://i.imgur.com/kSbMpdK.png" width="600px" />
 
 `todo` is a basic React app I created to familiarise myself with the fundamentals of React and utilising basic React components. It's a productivity app, designed to create your own `todo` list. The user can create, add and delete items on and off the list.
 
